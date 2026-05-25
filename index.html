@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ambiente de Testes - AVA UNIJORGE</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            max-width: 600px;
+            margin: 40px auto;
+            padding: 0 20px;
+            background-color: #0d0d0d; /* Fundo preto escuro */
+            color: #e0e0e0; /* Texto claro para contraste */
+            text-align: center;
+        }
+        /* Caixa de aviso técnico disfarçada */
+        .aviso-tecnico {
+            background-color: #1a1a1a; /* Fundo cinza escuro */
+            border-left: 5px solid #ff4d4d; /* Detalhe em vermelho vibrante */
+            padding: 15px;
+            text-align: left;
+            margin-bottom: 30px;
+            font-size: 0.9em;
+            border-radius: 4px;
+            color: #cccccc;
+        }
+        h1 {
+            color: #ff4d4d; /* Título principal em vermelho */
+            font-size: 1.8em;
+            margin-bottom: 5px;
+        }
+        .subtitulo {
+            color: #a0aec0;
+            margin-bottom: 30px;
+            font-size: 1em;
+        }
+        /* Estilização dos Módulos de Teste (Details) */
+        details {
+            background-color: #161616; /* Cards pretos levemente mais claros que o fundo */
+            border: 1px solid #2d2d2d;
+            border-radius: 6px;
+            padding: 15px;
+            margin-bottom: 15px;
+            cursor: pointer;
+            text-align: left;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+            transition: border-color 0.3s ease;
+        }
+        details[open] {
+            border-color: #ff4d4d; /* Borda vermelha quando expandido */
+        }
+        summary {
+            font-size: 1.1em;
+            font-weight: 600;
+            color: #e0e0e0;
+            outline: none;
+        }
+        .foto-surpresa {
+            max-width: 100%;
+            height: auto;
+            border-radius: 6px;
+            margin: 15px 0;
+            display: block;
+            border: 1px solid #333;
+        }
+        /* Alerta de Spoiler Emocional */
+        .revelacao {
+            color: #ff4d4d; /* Vermelho destacado */
+            font-weight: bold;
+            font-size: 1.3em;
+            text-align: center;
+            margin-top: 15px;
+        }
+        /* O Botão do Rickroll disfarçado */
+        .botao-link {
+            display: inline-block;
+            background-color: #ff4d4d; /* Botão vermelho padrão */
+            color: #000000; /* Texto preto para alto contraste */
+            padding: 12px 25px;
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 4px;
+            margin-top: 15px;
+            box-shadow: 0 4px 15px rgba(255, 77, 77, 0.3);
+            transition: all 0.3s ease;
+        }
+        /* Transição festiva no hover */
+        .botao-link:hover {
+            background-color: #e60000; /* Vermelho mais escuro */
+            color: #ffffff; /* Texto muda para branco no hover */
+            box-shadow: 0 6px 20px rgba(255, 77, 77, 0.5);
+            transform: translateY(-2px);
+        }
+        .botao-link:active {
+            transform: translateY(0);
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Console de Teste Disparador: Componentes Dinâmicos</h1>
+    <p class="subtitulo">Projeto Acadêmico - Análise e Desenvolvimento de Sistemas</p>
+
+    <div class="aviso-tecnico">
+        <strong>⚠️ Instruções para o validador:</strong><br>
+        Por favor, clique nos módulos abaixo para verificar se a renderização das tags de expansão <code>&lt;details&gt;</code> e os elementos de mídia estão carregando corretamente no seu dispositivo.
+    </div>
+
+    <details>
+        <summary>⚙️ Testar Módulo 01: Validação de Mídia Retida</summary>
+        <p style="margin-top: 15px;"><strong>Status do teste: Concluído com sucesso!</strong></p>
+        
+        <!-- Substitua o link abaixo pela sua foto com ela -->
+        <img src="fotos/frases-feliz-aniversario.jpg" alt="Foto de teste" class="foto-surpresa">
+        
+        <p>Brincadeira! O código está funcionando normal eu só queria fazer alguma coisa especial pro seu aniversario mesmo que não esteja perfeito ainda... </p>
+
+        <h3>Fique ai com algumas fotos aleatorias que eu achei do nosso tempo de jogatina juntas</h3>
+
+        <img src="fotos/Meh1.jpeg" alt="Foto de teste" class="foto-surpresa">
+
+        <img src="fotos/Mehla1.jpeg" alt="Foto de teste" class="foto-surpresa">
+         
+        <img src="fotos/Mehla2.jpeg" alt="Foto de teste" class="foto-surpresa">
+
+        <img src="fotos/mehla3.jpeg" alt="Foto de teste" class="foto-surpresa">
+
+
+    </details>
+
+    <details>
+        <summary>⚙️ Testar Módulo 02: Armazenamento de Logs Históricos</summary>
+        <p style="margin-top: 15px;"><strong>Status do teste: Memórias Carregadas.</strong></p>
+        
+        <!-- Substitua o link abaixo pela segunda foto de vocês -->
+
+        <P>Olha ela bbzinha coisa mais linda modesu, nem parece que ta fazendo 21 anos</P>
+        <img src="fotos/bbmeh.jpg" alt="Foto de teste" class="foto-surpresa">
+
+        <p>Como pode ser bonita até beijando um pexe..</p>
+
+        <img src="fotos/Meh2.jpeg" alt="Foto de teste" class="foto-surpresa">
+        <p>(essa foto ficou gigantescamente gigante e eu nao sei pq, depois eu aprendo como ajeita)</p>
+        <p>O bom é que da pra ver sua beleza melhor he</p>
+        <img src="fotos/merilin.jpeg" alt="Foto de teste" class="foto-surpresa">
+
+        <p>Mesmo a gente não se conhecendo pessoalmente eu ainda levo vc com se estivesse aqui cada momento cmg</p>
+
+        <img src="fotos/lotos_breu.png" alt="Foto de teste" class="foto-surpresa">
+
+        <img src="fotos/mehla4.jpeg" alt="Foto de teste" class="foto-surpresa">
+        
+        <p>Aqui eu fiz um contador de dias que a gente se conhece mas como eu não sei exatamente quando foi eu coloquei a data da nossa primeira conversa</p>
+        <p>ele é em tempo real então vc pode entrar aqui a hora que quiser e ver</p>
+        
+        <!-- Mantive o terminal clássico de logs, mas ajustei o verde para harmonizar com o layout escuro -->
+        <div style="background-color: #121212; color: #ff4d4d; border: 1px solid #2d2d2d; font-family: 'Courier New', Courier, monospace; padding: 15px; border-radius: 4px; font-size: 1.1em; font-weight: bold; letter-spacing: 1px; margin: 15px 0; text-align: center; box-shadow: inset 0 0 10px rgba(0,0,0,0.8);">
+            ⏳ TEMPO DE CONEXÃO: <span id="cronometro">Carregando logs...</span>
+        </div>
+    </details>
+
+    <details>
+        <summary>⚠️ Testar Módulo 03: Executar Script Final (Output.exe)</summary>
+        
+        <p class="revelacao">🎉 FELIZ ANIVERSÁRIO! 🎉</p>
+        
+        <p>Ebaaa agora que vc ja passou por todas as etapas aqui esta o seu presente muito especial, espero que goste</p>
+        
+        <div style="text-align: center;">
+            <!-- Redirecionamento configurado para o Rickroll oficial em nova aba -->
+            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" class="botao-link">
+                🎁 CLIQUE AQUI PARA REIVINDICAR O PRESENTE
+            </a>
+        </div>
+    </details>
+
+    <p style="margin-top: 50px; font-size: 0.7em; color: #4a4a4a;">ID do Projeto: #2026-ADS-UNIJORGE</p>
+
+    <script>
+        // CONFIGURAÇÃO DA SUA DATA CONFIGURADA PARA 28/03/2025 (Março = Mês 2 no JS)
+        const dataInicio = new Date(2025, 2, 28, 0, 0, 0); 
+
+        function atualizarContador() {
+            const agora = new Date();
+            const diferenca = agora - dataInicio;
+
+            // Cálculos para converter milissegundos em tempo legível
+            const dias = Math.floor(diferenca / (1000 * 60 * 60 * 24));
+            const horas = Math.floor((diferenca % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            const minutes = Math.floor((diferenca % (1000 * 60 * 60)) / (1000 * 60));
+            const segundos = Math.floor((diferenca % (1000 * 60)) / 1000);
+
+            // Adiciona o texto atualizado na tela
+            document.getElementById("cronometro").innerHTML = 
+                `${dias} dias, ${horas}h ${minutes}m ${segundos}s`;
+        }
+
+        // Atualiza a cada 1 segundo
+        setInterval(atualizarContador, 1000);
+        atualizarContador(); 
+    </script>
+
+</body>
+</html>
